@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.calculate {
+  width: 400px;
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rebeccapurple;
+  gap: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.display {
+  background-color: wheat;
+  width: 100%;
+  padding: 45px 15px 15px 15px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: right;
+  min-height: 100px;
+}
+.btn-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+button {
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 2px 2px 2px 2px black;
+}
+button:active {
+  box-shadow: -2px -2px 2px 2px black;
+  background-color: orange;
+}
