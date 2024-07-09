@@ -1,0 +1,29 @@
+.icon {
+  display: flex;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 50%;
+  width: 55px;
+  background-color: gainsboro;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconSuccess {
+  background-color: rgb(68, 173, 68);
+}
+.iconUnSuccess {
+  background-color: rgb(218, 74, 74);
+}
+.iconDefault {
+  background-color: rgb(133, 130, 130);
+}
+.container {
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin: 10px auto;
+  display: flex;
+  gap: 10px;
+}

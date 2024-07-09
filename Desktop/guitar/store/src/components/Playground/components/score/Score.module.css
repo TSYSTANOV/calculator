@@ -1,0 +1,8 @@
+.success {
+  border-color: var(--color-green-dark);
+  color: var(--color-green-dark);
+}
+.fail {
+  border-color: var(--color-red-dark);
+  color: var(--color-red-dark);
+}

@@ -1,0 +1,17 @@
+.container {
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin: 10px auto;
+}
+.icon {
+  display: flex;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 50%;
+  width: 55px;
+  background-color: gainsboro;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+}
